@@ -38,7 +38,7 @@ lint:
 
 # run tests
 test:
-	pytest --verbose --cov-report xml --cov-report html --cov=bioio_sldy bioio_sldy/tests
+	pytest --cov-report xml --cov-report html --cov=bioio_sldy bioio_sldy/tests
 
 # run lint and then run tests
 build:
